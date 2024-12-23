@@ -1,0 +1,252 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Dec 18 19:49:17 2024
+# Process ID: 18552
+# Current directory: D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7896 D:\template_for1\vivado\Example_Project\axi_mult_adder\axi_fnd_mult_adder\axi_fnd_mult_adder.xpr
+# Log file: D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/vivado.log
+# Journal file: D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder\vivado.jou
+# Running On: DESKTOP-CFC9RNF, OS: Windows, CPU Frequency: 3504 MHz, CPU Physical cores: 4, Host memory: 8497 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.4 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/ac701/1.4/board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from '/mnt/ssd1/2024/Huins-ssd1/easysoc-pynq/sogang/export/vivado_template_rev5/template/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/../../axi/template/work/sogang/vivado/fnd_ps_pl/axi_fnd_mult_adder/axi_fnd_mult_adder.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp', nor could it be found using path 'D:/mnt/ssd1/2024/Huins-ssd1/easysoc-pynq/sogang/axi/template/work/sogang/vivado/fnd_ps_pl/axi_fnd_mult_adder/axi_fnd_mult_adder.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp'.
+WARNING: [Project 1-865] Could not find the file D:/../../axi/template/work/sogang/vivado/fnd_ps_pl/axi_fnd_mult_adder/axi_fnd_mult_adder.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-865] Could not find the file D:/../../axi/template/work/sogang/vivado/fnd_ps_pl/axi_fnd_mult_adder/axi_fnd_mult_adder.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp
+WARNING: [Project 1-865] Could not find the file D:/../../axi/template/work/sogang/vivado/fnd_ps_pl/axi_fnd_mult_adder/axi_fnd_mult_adder.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp
+WARNING: [Project 1-865] Could not find the file D:/../../axi/template/work/sogang/vivado/fnd_ps_pl/axi_fnd_mult_adder/axi_fnd_mult_adder.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp
+WARNING: [Project 1-865] Could not find the file D:/../../axi/template/work/sogang/vivado/fnd_ps_pl/axi_fnd_mult_adder/axi_fnd_mult_adder.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2022.2/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'design_1.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+design_1_zynq_ultra_ps_e_0_0
+design_1_axi_smc_0
+design_1_xlconstant_0_0
+design_1_rst_ps8_0_100M_0
+design_1_system_ila_0_0
+
+open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:22 . Memory (MB): peak = 1312.582 ; gain = 336.809
+report_ip_status -name ip_status 
+update_compile_order -fileset sources_1
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'registerx32_1' [D:/template_for1/vivado/template_IP/s_axi_template.v:790]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'registerx32_1' [D:/template_for1/vivado/template_IP/s_axi_template.v:790]
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+WARNING: [Common 17-9] Error reading message records.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 18 20:55:23 2024...
+files D:/../../axi/template/work/sogang/vivado/fnd_ps_pl/axi_fnd_mult_adder/axi_fnd_mult_adder.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp] -no_script -reset -force -quiet
+remove_files  -fileset utils_1 D:/../../axi/template/work/sogang/vivado/fnd_ps_pl/axi_fnd_mult_adder/axi_fnd_mult_adder.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp
+INFO: [Vivado 12-5457] ref source:D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.srcs/sources_1/ip/xbip_multadd_0/xbip_multadd_0.xci
+generate_target Simulation [get_files D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.srcs/sources_1/ip/xbip_multadd_0/xbip_multadd_0.xci]
+INFO: [IP_Flow 19-1706] Not generating 'Simulation' target for IP 'xbip_multadd_0'. Target already exists and is up to date.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'seven_seg'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx/Vivado/2022.2/data/xsim/xsim.ini' copied to run dir:'D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-20] The project contains locked or custom IPs. The pre-compiled version of these IPs will not be referenced and the sources from these IP libraries will be compiled locally.
+INFO: [SIM-utils-54] Inspecting design source files for 'seven_seg' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.sim/sim_1/behav/xsim/sc_xtlm_design_1_axi_smc_0.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L axi_vip_v1_1_13 -L smartconnect_v1_0 -L axi_vip_v1_1_12 -L zynq_ultra_ps_e_vip_v1_0_13 -L zynq_ultra_ps_e_vip_v1_0_12 -L xilinx_vip -prj seven_seg_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.srcs/sources_1/new/hex2seg_v2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hex2seg_v2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.srcs/sources_1/new/seven_seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot seven_seg_behav xil_defaultlib.seven_seg xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot seven_seg_behav xil_defaultlib.seven_seg xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.hex2seg_v2
+Compiling module xil_defaultlib.seven_seg
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot seven_seg_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1366.098 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "seven_seg_behav -key {Behavioral:sim_1:Functional:seven_seg} -tclbatch {seven_seg.tcl} -protoinst "protoinst_files/bd_afc3.protoinst" -protoinst "protoinst_files/bd_f60c.protoinst" -protoinst "protoinst_files/design_1.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/bd_afc3.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/bd_afc3.protoinst for the following reason(s):
+There are no instances of module "bd_afc3" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/bd_f60c.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/bd_f60c.protoinst for the following reason(s):
+There are no instances of module "bd_f60c" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_1.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/design_1.protoinst for the following reason(s):
+There are no instances of module "design_1" in the design.
+
+Time resolution is 1 ps
+source seven_seg.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'seven_seg_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 1394.223 ; gain = 28.125
+reset_run synth_1
+INFO: [Project 1-1160] Copying file D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.runs/synth_1/design_1_wrapper.dcp to D:/../../axi/template/work/sogang/vivado/fnd_ps_pl/axi_fnd_mult_adder/axi_fnd_mult_adder.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.runs/synth_1
+
+launch_runs synth_1 -jobs 2
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.srcs/sources_1/ip/xbip_multadd_0/xbip_multadd_0.xci' is already up-to-date
+[Wed Dec 18 20:07:35 2024] Launched synth_1...
+Run output will be captured here: D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 2
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.srcs/sources_1/ip/xbip_multadd_0/xbip_multadd_0.xci' is already up-to-date
+[Wed Dec 18 20:10:52 2024] Launched impl_1...
+Run output will be captured here: D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.runs/impl_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/../../axi/template/work/sogang/vivado/fnd_ps_pl/axi_fnd_mult_adder/axi_fnd_mult_adder.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp with file D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.runs/synth_1/design_1_wrapper.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.runs/synth_1
+
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'registerx32_1' [D:/template_for1/vivado/template_IP/s_axi_template.v:790]
+launch_runs synth_1 -jobs 2
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'registerx32_1' [D:/template_for1/vivado/template_IP/s_axi_template.v:790]
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.srcs/sources_1/ip/xbip_multadd_0/xbip_multadd_0.xci' is already up-to-date
+[Wed Dec 18 20:30:15 2024] Launched synth_1...
+Run output will be captured here: D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 2
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.srcs/sources_1/ip/xbip_multadd_0/xbip_multadd_0.xci' is already up-to-date
+[Wed Dec 18 20:32:08 2024] Launched impl_1...
+Run output will be captured here: D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.runs/impl_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/../../axi/template/work/sogang/vivado/fnd_ps_pl/axi_fnd_mult_adder/axi_fnd_mult_adder.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp with file D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.runs/synth_1/design_1_wrapper.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.runs/synth_1
+
+launch_runs synth_1 -jobs 2
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.srcs/sources_1/ip/xbip_multadd_0/xbip_multadd_0.xci' is already up-to-date
+[Wed Dec 18 20:39:46 2024] Launched synth_1...
+Run output will be captured here: D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 2
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.srcs/sources_1/ip/xbip_multadd_0/xbip_multadd_0.xci' is already up-to-date
+[Wed Dec 18 20:41:43 2024] Launched impl_1...
+Run output will be captured here: D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.srcs/sources_1/ip/xbip_multadd_0/xbip_multadd_0.xci' is already up-to-date
+[Wed Dec 18 20:48:01 2024] Launched impl_1...
+Run output will be captured here: D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.2.0
+  ****** Build date   : Oct 05 2022-08:25:37
+    **** Build number : 2022.2.1664925937
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210249BAA111
+open_hw_target: Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 3576.801 ; gain = 2166.012
+set_property PROGRAM.FILE {D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xczu3_0]
+set_property PROBES.FILE {D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu3_0]
+set_property FULL_PROBES.FILE {D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu3_0]
+current_hw_device [get_hw_devices xczu3_0]
+refresh_hw_device [lindex [get_hw_devices xczu3_0] 0]
+INFO: [Labtools 27-2302] Device xczu3 (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+WARNING: [Labtools 27-1972] Mismatch between the design programmed into the device xczu3 (JTAG device index = 0) and the probes file(s) D:/template_for1/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.runs/impl_1/design_1_wrapper.ltx.
+ The core at location uuid_23E7D65A79BC59F7BC47406C1714DFAE has different widths for ILA input port 0. Port width in the device core is 2, but port width in the probes file is 8.
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+current_hw_device [get_hw_devices arm_dap_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices arm_dap_1] 0]
+current_hw_device [get_hw_devices xczu3_0]
+INFO: [Labtools 27-1435] Device xczu3 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+close_hw_manager
+can't read "c_xdevicefamily": no such variable
+can't read "c_xdevicefamily": no such variable
+can't read "c_xdevicefamily": no such variable
+can't read "c_xdevicefamily": no such variable
+can't read "c_xdevicefamily": no such variable
+can't read "c_xdevicefamily": no such variable
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 18 21:29:31 2024...
+INFO: [filemgmt 56-326] User Interrupt. Could not getCurrentGraph()

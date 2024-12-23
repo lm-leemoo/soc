@@ -1,0 +1,106 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Wed Dec 18 20:47:27 2024
+| Host         : DESKTOP-CFC9RNF running 64-bit major release  (build 9200)
+| Command      : report_drc -file design_1_wrapper_drc_routed.rpt -pb design_1_wrapper_drc_routed.pb -rpx design_1_wrapper_drc_routed.rpx
+| Design       : design_1_wrapper
+| Device       : xczu3eg-sbva484-1-e
+| Speed File   : -1
+| Design State : Fully Routed
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 10
++-----------+----------+---------------------------------------------------------------------+------------+
+| Rule      | Severity | Description                                                         | Violations |
++-----------+----------+---------------------------------------------------------------------+------------+
+| DPIP-2    | Warning  | Input pipelining                                                    | 3          |
+| DPOP-3    | Warning  | PREG Output pipelining                                              | 1          |
+| DPOP-4    | Warning  | MREG Output pipelining                                              | 1          |
+| PDCN-1569 | Warning  | LUT equation term check                                             | 3          |
+| RTSTAT-10 | Warning  | No routable loads                                                   | 1          |
+| AVAL-155  | Advisory | enum_AMULTSEL_BMULTSEL_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND | 1          |
++-----------+----------+---------------------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+DPIP-2#1 Warning
+Input pipelining  
+DSP design_1_i/s_axi_template_0/inst/MultAdd/U0/i_synth/device_supports_dsp.use_multadd_dsp/dsp48_multadd.multadd_usecase_inst/i_synth_option.i_synth_model/opt_vx8.i_uniwrap/i_primitive input design_1_i/s_axi_template_0/inst/MultAdd/U0/i_synth/device_supports_dsp.use_multadd_dsp/dsp48_multadd.multadd_usecase_inst/i_synth_option.i_synth_model/opt_vx8.i_uniwrap/i_primitive/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#2 Warning
+Input pipelining  
+DSP design_1_i/s_axi_template_0/inst/MultAdd/U0/i_synth/device_supports_dsp.use_multadd_dsp/dsp48_multadd.multadd_usecase_inst/i_synth_option.i_synth_model/opt_vx8.i_uniwrap/i_primitive input design_1_i/s_axi_template_0/inst/MultAdd/U0/i_synth/device_supports_dsp.use_multadd_dsp/dsp48_multadd.multadd_usecase_inst/i_synth_option.i_synth_model/opt_vx8.i_uniwrap/i_primitive/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#3 Warning
+Input pipelining  
+DSP design_1_i/s_axi_template_0/inst/MultAdd/U0/i_synth/device_supports_dsp.use_multadd_dsp/dsp48_multadd.multadd_usecase_inst/i_synth_option.i_synth_model/opt_vx8.i_uniwrap/i_primitive input design_1_i/s_axi_template_0/inst/MultAdd/U0/i_synth/device_supports_dsp.use_multadd_dsp/dsp48_multadd.multadd_usecase_inst/i_synth_option.i_synth_model/opt_vx8.i_uniwrap/i_primitive/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPOP-3#1 Warning
+PREG Output pipelining  
+DSP design_1_i/s_axi_template_0/inst/MultAdd/U0/i_synth/device_supports_dsp.use_multadd_dsp/dsp48_multadd.multadd_usecase_inst/i_synth_option.i_synth_model/opt_vx8.i_uniwrap/i_primitive output design_1_i/s_axi_template_0/inst/MultAdd/U0/i_synth/device_supports_dsp.use_multadd_dsp/dsp48_multadd.multadd_usecase_inst/i_synth_option.i_synth_model/opt_vx8.i_uniwrap/i_primitive/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-4#1 Warning
+MREG Output pipelining  
+DSP design_1_i/s_axi_template_0/inst/MultAdd/U0/i_synth/device_supports_dsp.use_multadd_dsp/dsp48_multadd.multadd_usecase_inst/i_synth_option.i_synth_model/opt_vx8.i_uniwrap/i_primitive multiplier stage design_1_i/s_axi_template_0/inst/MultAdd/U0/i_synth/device_supports_dsp.use_multadd_dsp/dsp48_multadd.multadd_usecase_inst/i_synth_option.i_synth_model/opt_vx8.i_uniwrap/i_primitive/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+PDCN-1569#1 Warning
+LUT equation term check  
+Used physical LUT pin 'A1' of cell dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/temp_curid[31]_i_1 (pin dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/temp_curid[31]_i_1/I1) is not included in the LUT equation: 'O5=(A2*A5)+(A2*(~A5)*(~A4))+((~A2))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#2 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/temp_curid[31]_i_1 (pin dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/temp_curid[31]_i_1/I0) is not included in the LUT equation: 'O5=(A2*A5)+(A2*(~A5)*(~A4))+((~A2))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#3 Warning
+LUT equation term check  
+Used physical LUT pin 'A5' of cell dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.id_state[0]_i_1 (pin dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.id_state[0]_i_1/I0) is not included in the LUT equation: 'O6=(A6+~A6)*((A3))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+RTSTAT-10#1 Warning
+No routable loads  
+140 net(s) have no routable loads. The problem bus(es) and/or net(s) are dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD1/ctl_reg_en_2[1],
+dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i,
+dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg[2:0],
+dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg_en_2[1],
+dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/TMS,
+dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_capture[0],
+dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_drck[0],
+dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_runtest[0],
+design_1_i/s_axi_template_0/inst/S_AXI_BUSER[-1:0],
+design_1_i/s_axi_template_0/inst/S_AXI_RUSER[-1:0],
+design_1_i/s_axi_template_0/inst/S_AXI_WDATA_mux[63:0],
+design_1_i/s_axi_template_0/inst/mem_address_buf[31:0],
+design_1_i/s_axi_template_0/inst/mem_select,
+design_1_i/s_axi_template_0/inst/mem_wren_buf[3:0],
+design_1_i/s_axi_template_0/inst/mode_sel[4]
+ (the first 15 of 39 listed nets/buses).
+Related violations: <none>
+
+AVAL-155#1 Advisory
+enum_AMULTSEL_BMULTSEL_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_1_i/s_axi_template_0/inst/MultAdd/U0/i_synth/device_supports_dsp.use_multadd_dsp/dsp48_multadd.multadd_usecase_inst/i_synth_option.i_synth_model/opt_vx8.i_uniwrap/i_primitive: DSP48E2 is not using the D port (AMULTSEL = A and BMULTSEL = B). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+

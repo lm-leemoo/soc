@@ -1,0 +1,168 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
+| Date         : Mon Nov 25 19:37:05 2024
+| Host         : linux running 64-bit Ubuntu 22.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xczu3eg-sbva484-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_multadd_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axi_multadd_0_2 (user.org:user:axi_multadd:1.0) from (Rev. 48) to (Rev. 49)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
+| Date         : Mon Nov 25 19:31:21 2024
+| Host         : linux running 64-bit Ubuntu 22.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xczu3eg-sbva484-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_multadd_0_2'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_axi_multadd_0_2 (user.org:user:axi_multadd:1.0) from (Rev. 47) to (Rev. 48)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_axi_multadd_0_2'. These changes may impact your design.
+
+
+-Upgrade has removed port 'P'
+
+-Upgrade has added port 'P_buf'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
+| Date         : Mon Nov 25 17:50:05 2024
+| Host         : linux running 64-bit Ubuntu 22.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xczu3eg-sbva484-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_multadd_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axi_multadd_0_2 (user.org:user:axi_multadd:1.0) from (Rev. 46) to (Rev. 47)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
+| Date         : Mon Nov 25 13:46:59 2024
+| Host         : linux running 64-bit Ubuntu 22.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xczu3eg-sbva484-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_seven_seg_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_seven_seg_0_1 (xilinx.com:module_ref:seven_seg:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
+| Date         : Mon Nov 25 13:46:59 2024
+| Host         : linux running 64-bit Ubuntu 22.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xczu3eg-sbva484-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_multadd_0_2'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_axi_multadd_0_2 (user.org:user:axi_multadd:1.0) from (Rev. 44) to (Rev. 46)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_axi_multadd_0_2'. These changes may impact your design.
+
+
+-Upgraded port 'A_dbg' width 12 differs from original width 32
+
+-Upgraded port 'B_dbg' width 12 differs from original width 32
+
+-Upgraded port 'C_dbg' width 12 differs from original width 32
+
+-Upgraded port 'P' width 16 differs from original width 64
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
+| Date         : Mon Nov 25 13:38:16 2024
+| Host         : linux running 64-bit Ubuntu 22.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xczu3eg-sbva484-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_multadd_0_2'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_axi_multadd_0_2 (user.org:user:axi_multadd:1.0) from (Rev. 43) to (Rev. 44)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_axi_multadd_0_2'. These changes may impact your design.
+
+
+-Upgraded port 'A_dbg' width 32 differs from original width 8
+
+-Upgraded port 'B_dbg' width 32 differs from original width 8
+
+-Upgraded port 'C_dbg' width 32 differs from original width 8
+
+-Upgraded port 'P' width 64 differs from original width 16
+
+

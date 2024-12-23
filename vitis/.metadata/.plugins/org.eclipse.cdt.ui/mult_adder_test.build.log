@@ -1,0 +1,21 @@
+20:52:09 **** Incremental Build of configuration Debug for project mult_adder_test ****
+make all 
+'Building file: ../src/Mult_Adder.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Mult_Adder.o" -ID:/template_for1/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/Mult_Adder.d" -MT"src/Mult_Adder.o" -o "src/Mult_Adder.o" "../src/Mult_Adder.c"
+'Finished building: ../src/Mult_Adder.c'
+' '
+'Building target: mult_adder_test.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/template_for1/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_psu_cortexa53_0/bsplib/lib -o "mult_adder_test.elf"  ./src/.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./src/Mult_Adder.o ./src/platform.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mult_adder_test.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size mult_adder_test.elf  |tee "mult_adder_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 147100	   4578	  20818	 172496	  2a1d0	mult_adder_test.elf
+'Finished building: mult_adder_test.elf.size'
+' '
+
+20:52:12 Build Finished (took 2s.945ms)
+

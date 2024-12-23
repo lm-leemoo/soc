@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../axi_fnd_mult_adder.gen/sources_1/ip/xbip_multadd_0/sim/xbip_multadd_0.vhd" \
+
+nosort

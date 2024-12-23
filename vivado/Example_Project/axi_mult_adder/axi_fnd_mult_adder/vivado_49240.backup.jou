@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Nov 28 13:32:46 2024
+# Process ID: 49240
+# Current directory: C:/template/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent64804 C:\template\vivado\Example_Project\axi_mult_adder\axi_fnd_mult_adder\axi_fnd_mult_adder.xpr
+# Log file: C:/template/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/vivado.log
+# Journal file: C:/template/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder\vivado.jou
+# Running On: DESKTOP-JA4I3FP, OS: Windows, CPU Frequency: 3793 MHz, CPU Physical cores: 16, Host memory: 34279 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/template/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/template/vivado/Example_Project/axi_mult_adder/axi_fnd_mult_adder/axi_fnd_mult_adder.srcs/sources_1/bd/design_1/design_1.bd}

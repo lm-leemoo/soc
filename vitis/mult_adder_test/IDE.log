@@ -1,0 +1,18 @@
+20:00:39 DEBUG : Logs will be stored at 'D:/template_for1/vitis/mult_adder_test/IDE.log'.
+20:00:42 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\template_for1\vitis\mult_adder_test\temp_xsdb_launch_script.tcl
+20:00:42 INFO  : Registering command handlers for Vitis TCF services
+20:00:43 INFO  : Platform repository initialization has completed.
+20:00:45 INFO  : XSCT server has started successfully.
+20:00:45 INFO  : plnx-install-location is set to ''
+20:00:45 INFO  : Successfully done setting XSCT server connection channel  
+20:00:45 INFO  : Successfully done query RDI_DATADIR 
+20:00:45 INFO  : Successfully done setting workspace for the tool. 
+20:05:06 DEBUG : Logs will be stored at 'D:/template_for1/vitis/mult_adder_test/IDE.log'.
+20:05:09 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\template_for1\vitis\mult_adder_test\temp_xsdb_launch_script.tcl
+20:05:09 INFO  : Registering command handlers for Vitis TCF services
+20:05:10 INFO  : Platform repository initialization has completed.
+20:05:12 INFO  : XSCT server has started successfully.
+20:05:12 INFO  : plnx-install-location is set to ''
+20:05:12 INFO  : Successfully done setting XSCT server connection channel  
+20:05:12 INFO  : Successfully done query RDI_DATADIR 
+20:05:12 INFO  : Successfully done setting workspace for the tool. 

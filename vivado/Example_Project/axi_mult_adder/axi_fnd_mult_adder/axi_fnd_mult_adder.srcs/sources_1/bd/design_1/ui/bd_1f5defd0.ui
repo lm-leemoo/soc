@@ -1,0 +1,38 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.899542",
+   "Default View_TopLeft":"213,-147",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace portBus seg_out -pg 1 -lvl 5 -x 1650 -y 240 -defaultsOSRD
+preplace portBus com_out -pg 1 -lvl 5 -x 1650 -y 260 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 1 -x 170 -y 200 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 2 -x 650 -y 190 -defaultsOSRD
+preplace inst rst_ps8_0_100M -pg 1 -lvl 1 -x 170 -y 390 -defaultsOSRD
+preplace inst seven_seg_0 -pg 1 -lvl 4 -x 1486 -y 250 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 4 -x 1486 -y 50 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 2 -x 650 -y 60 -defaultsOSRD
+preplace inst s_axi_template_0 -pg 1 -lvl 3 -x 1050 -y 500 -defaultsOSRD
+preplace netloc rst_ps8_0_100M_peripheral_aresetn 1 1 3 490 -10 790 -40 1280
+preplace netloc seven_seg_0_com_out 1 4 1 NJ 260
+preplace netloc seven_seg_0_seg_out 1 4 1 NJ 240
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 4 -150 100 500 0 820 -30 1270
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 2 -140 110 480
+preplace netloc s_axi_template_0_P_buf 1 3 1 1290 100n
+preplace netloc A_dbg 1 3 1 1250 20n
+preplace netloc B_dbg 1 3 1 1260 40n
+preplace netloc C_dbg 1 3 1 1300 60n
+preplace netloc mode_sel_dbg 1 3 1 1310 80n
+preplace netloc xlconstant_0_dout 1 2 1 800 60n
+preplace netloc axi_smc_M00_AXI 1 2 2 810 -20 N
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 1 1 510 170n
+levelinfo -pg 1 -170 170 650 1050 1486 1650
+pagesize -pg 1 -db -bbox -sgen -170 -100 1800 1220
+"
+}
+{
+   "da_axi4_cnt":"2",
+   "da_clkrst_cnt":"1",
+   "da_zynq_ultra_ps_e_cnt":"1"
+}
